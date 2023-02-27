@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FLEX 3</title>
+</head>
+<body>
+	<div class="navbar">
+		<nav>
+			<ul>
+			  <li><a href="#">Primeiro</a></li>
+			  <li><a href="#">Segundo</a></li>
+			  <li><a href="#">Terceiro</a></li>
+			</ul>
+		  </nav>
+	</div>
+
+	<div class="section">
+		<section class="start">
+			<h1>teste</h1>
+		</section>
+
+		<section class="center">
+			<h1>teste</h1>
+		</section>
+
+		<section class="end">
+			<h1>teste</h1>
+		</section>
+	</div>
+
+	<div class="footer">
+		<footer>
+			zap zap zap zap zap zap
+		</footer>
+	</div>
+		
+
+	<style>
+		.navbar {background-color: #3AAF61; height: 50px;}
+		.navbar ul {display: flex; gap: 20px; justify-content: center; list-style-type: none;}
+		.section section {width: 700px;}
+		.section {display: flex; gap: 20px; justify-content: space-around; border: 5px solid black; }
+		.section .start {background-color: #EC3A3E;}
+		.section .center {background-color: #FF9646;}
+		.section .end {background-color: #F39CAD;}
+		.footer {display: flex; background-color: #008FF6; height: 50px; justify-content: center;}
+	</style>
+</body>
+</html>

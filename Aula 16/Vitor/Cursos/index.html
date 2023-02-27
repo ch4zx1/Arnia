@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cursos</title>
+</head>
+<body>
+	<div class="navbar">
+		<span class="titulo">Cursos</span>
+		<div class="buttons">
+			<button>Home</button>
+			<button>Cursos</button>
+		</div>
+	</div>
+
+	<div class="cursos">
+		<h1>Nossos Cursos</h1>
+		<div class="itens">
+			<div class="cartao">
+				<img src="learning.png">
+				<span>Java</span>
+			</div>
+
+			<div class="cartao">
+				<img src="learning.png">
+				<span>PHP</span>
+			</div>
+
+			<div class="cartao">
+				<img src="learning.png">
+				<span>Ruby on Rails</span>
+			</div>
+
+			<div class="cartao">
+				<img src="learning.png">
+				<span>Pascal</span>
+			</div>
+
+			<div class="cartao">
+				<img src="learning.png">
+				<span>Flexbox</span>
+			</div>
+
+			<div class="cartao">
+				<img src="learning.png">
+				<span>Desenvolvimento Web</span>
+			</div>
+
+			<div class="cartao">
+				<img src="learning.png">
+				<span>Javascript</span>
+			</div>
+
+			<div class="cartao">
+				<img src="learning.png">
+				<span>ReactJS</span>
+			</div>
+
+			<div class="cartao">
+				<img src="learning.png">
+				<span>Anjular JS</span>
+			</div>
+
+			<div class="cartao">
+				<img src="learning.png">
+				<span>MySQL</span>
+			</div>
+			
+		</div>
+	</div>
+
+	<style>
+		body {background-color: #f3f3f7; margin: 0; font-family: sans-serif;}
+		.navbar {background-color: white; height: 70px;}
+		.navbar .buttons {display: flex; justify-content: flex-end; flex-direction: row;}
+		.navbar .buttons button {background-color: white; margin-left: 10px; margin-right: 20px; width: 80px; height: 30px; border: 2px solid #9B9A98; border-radius: 8px; color: #9B9A98; position: relative; top: 20px}
+		.navbar .titulo {font-size: 40px; position: absolute; font-weight: bold; top: 10px; left: 10px;}
+		
+		
+		.cursos {padding: 35px;}
+		.cursos .itens {display: flex; flex-direction: row; flex-wrap: wrap;}
+		.cursos .itens .cartao {background-color: white; width: 445px; height: 200px; margin-left: 10px; margin-top: 10px;}
+		.cursos .itens .cartao img {width: 100px; position: relative; top: 40px; left: 175px;}
+		.cursos .itens .cartao span {display: flex; justify-content: center; margin-top: 40px; font-family: sans-serif; font-weight: bold;}
+
+	</style>
+</body>
+</html>
